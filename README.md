@@ -1,3 +1,4 @@
+
 # AI Interview
 
 A modern real-time vision and voice interview application built with React, Vite, TypeScript, and Tailwind CSS.
@@ -49,3 +50,4 @@ A modern real-time vision and voice interview application built with React, Vite
 - **Zustand** (for state management)
 - **Recharts** (for data visualization)
 - **Axios** (for API requests)
+
