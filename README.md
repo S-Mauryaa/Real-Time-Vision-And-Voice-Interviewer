@@ -1,32 +1,51 @@
-# React + TypeScript + Vite
+# AI Interview
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern real-time vision and voice interview application built with React, Vite, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Video Panel**: Real-time video interface for interviews.
+- **Dashboard**: Complete dashboard layout with navigation sidebar.
+- **Interview Timer**: Built-in functionality to track interview duration.
+- **Data Visualization**: Charts integrated using Recharts.
 
-## React Compiler
+## Prerequisites
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm (comes automatically with Node.js)
 
-## Expanding the Oxlint configuration
+## Installation & Setup
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd "AI Interview"
+   ```
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+2. **Install Dependencies:**
+   Since this is a Node.js project, dependencies are managed via `package.json`. Run the following command in your terminal to install everything:
+   ```bash
+   npm install
+   ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+3. **Run the Development Server:**
+   ```bash
+   npm run dev
+   ```
+   This will start the application locally.
+
+4. **Build for Production:**
+   ```bash
+   npm run build
+   ```
+
+## Technologies Used
+
+- **React 19**
+- **Vite**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **Framer Motion** (for animations)
+- **Zustand** (for state management)
+- **Recharts** (for data visualization)
+- **Axios** (for API requests)

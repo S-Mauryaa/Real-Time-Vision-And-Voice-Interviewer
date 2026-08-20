@@ -1,0 +1,28 @@
+# Note: This is a Node.js project (React + TypeScript). 
+# Dependencies are managed in package.json and should be installed via npm, not pip.
+# To install all required dependencies, run the following command in your terminal:
+# 
+# npm install
+# 
+# Below is the list of project dependencies for reference:
+
+@tailwindcss/vite
+autoprefixer
+axios
+framer-motion
+lucide-react
+react
+react-dom
+react-router-dom
+recharts
+tailwindcss
+zustand
+
+# Development dependencies:
+@types/node
+@types/react
+@types/react-dom
+@vitejs/plugin-react
+oxlint
+typescript
+vite
